@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+header{
+    background: transparent;
+    color: #fff;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.nav-bar{
+    display: flex;
+    align-items:center ;
+}
+.logo{ 
+    width: 15%;
+}
+.menu{
+    width: 80%;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+/* .menu ul li{
+
+}  */
+.menu ul li a{
+    padding: 0 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu-icon{
+    display: none;
+}
+.banner-section{
+    background-image: url('imge/whitee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.banner-content{
+    color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 50px;
+    margin-bottom:35px;
+}
+.banner-content a{
+    color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+.banner-content a:hover{
+    background-color: #fff;
+    color: black;
+}
+/* service section */
+.service-section{
+    background-color: #fff;
+    padding: 100px 0;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-title h2{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.section-title p{
+    color: #999999;
+    font-size: 18px;
+}
+.service-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    width: 23.5%;
+    text-align: center;
+}
+.item img{
+    margin:0 auto 15px ;
+}
+.item h3{
+    text-transform: capitalize;
+}
+.item p{
+    color: #999999;
+}

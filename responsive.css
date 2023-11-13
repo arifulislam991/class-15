@@ -1,0 +1,22 @@
+@media(max-width:991px){
+    .menu{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        width: 80%;
+        text-align: right;
+    }
+    .menu-icon span{
+        font-size: 25px;
+    }
+    .item{
+        width: 49%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:575px){
+    .item{
+        width: 100%;
+    }
+}
