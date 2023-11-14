@@ -10,13 +10,15 @@
     .menu-icon span{
         font-size: 25px;
     }
-    .item{
+    .item , .member{
         width: 49%;
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
+
 }
 @media(max-width:575px){
-    .item{
+    .item,.member{
         width: 100%;
     }
+
 }
